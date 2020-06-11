@@ -2,6 +2,18 @@
 slug: maria-moreno
 lang: en
 name: María Moreno
+featured: Adiós pajarillos. Técnica mixta sobre papel, 2020.jpg
+artwork:
+  - title: n/a
+    image: Adiós pajarillos. Técnica mixta sobre papel, 2020.jpg
+  - title: n/a
+    image: Homenaje a Campos de Níjar. Técnica mixta y collage sobre papel.jpg
+  - title: n/a
+    image: Movimientos de brisas previsibles. Serie Il Bianco, il Vento e il Vuoto.  Técnica mixta sobre papel.jpg
+  - title: n/a
+    image: Piove su tutte le cose (Llueve sobre todas las cosas)  Serie Sobre el viento y otros cuentos.  Técnica mixta  sobre papel.jpg
+  - title: n/a
+    image: Tierra que permanece Técnica mixta sobre papel, 2020.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum

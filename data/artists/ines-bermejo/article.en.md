@@ -2,6 +2,18 @@
 slug: ines-bermejo
 lang: en
 name: Ines Bermejo
+featured: lamina (1).jpg
+artwork:
+  - title: n/a
+    image: lamina (1).jpg
+  - title: n/a
+    image: lamina (16).jpg
+  - title: n/a
+    image: lamina (24).jpg
+  - title: n/a
+    image: lamina (3).jpg
+  - title: n/a
+    image: lamina (4).jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum

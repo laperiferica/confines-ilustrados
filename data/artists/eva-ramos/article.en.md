@@ -2,6 +2,18 @@
 slug: eva-ramos
 lang: en
 name: Eva Ramos
+featured: IMG_0107.jpg
+artwork:
+  - title: Img 0107
+    image: IMG_0107.jpg
+  - title: Img 0108
+    image: IMG_0108.jpg
+  - title: Img 0109
+    image: IMG_0109.jpg
+  - title: Img 0110
+    image: IMG_0110.jpg
+  - title: Img 0111
+    image: IMG_0111.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum

@@ -2,6 +2,18 @@
 slug: gemma-palacio
 lang: en
 name: Gemma Palacio
+featured: 1MrFear_Musica.jpg
+artwork:
+  - title: n/a
+    image: 1MrFear_Musica.jpg
+  - title: n/a
+    image: 2MrFear_Deporte.jpg
+  - title: n/a
+    image: 3MrFear_Meditar.jpg
+  - title: n/a
+    image: 4MrFear_Cocinar.jpg
+  - title: n/a
+    image: 5MrFear_Aceptar_cuidar.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
