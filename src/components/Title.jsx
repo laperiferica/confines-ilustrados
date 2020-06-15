@@ -3,11 +3,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const StyledTitle = styled.div`
-  margin-bottom: 6rem;
-  text-align: center;
+  margin-bottom: 2rem;
   h2 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
     text-transform: lowercase;
     color: #663399;
   }

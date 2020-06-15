@@ -4,8 +4,10 @@ import { injectIntl } from 'gatsby-plugin-intl';
 
 import SEO from '../components/SEO';
 import Gallery from '../components/Gallery';
-import Container from '../components/Container';
 import Title from '../components/Title';
+import Composition from '../components/Composition';
+import Sidebar from '../components/Sidebar';
+import Item from '../components/Item';
 
 const IndexPage = ({
   data: {
@@ -21,22 +23,24 @@ const IndexPage = ({
       lang={pageContext.language}
     />
 
-    <Container>
-      <Title>Creatividad Confinada</Title>
-      <div style={{ textAlign: 'justify' }}>
+    <Composition>
+      <Sidebar>
+        <img src={'https://via.placeholder.com/250/250'} />
+        <Title>Confines Ilustrados</Title>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
-    </Container>
+      </Sidebar>
 
-    <Gallery
-      columns={3}
-      lang={pageContext.language}
-      images={edges.map(({ node }) => ({
-        ...node.frontmatter.featured.full.fluid,
-        title: node.frontmatter.name,
-        slug: node.frontmatter.slug,
-      }))}
-    />
+      <Gallery
+        partitions={2}
+        component={Item}
+        lang={pageContext.language}
+        items={edges.map(({ node }) => ({
+          image: node.frontmatter.featured.full.fluid,
+          title: node.frontmatter.name,
+          slug: node.frontmatter.slug,
+        }))}
+      />
+    </Composition>
   </>
 );
 

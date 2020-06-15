@@ -32,11 +32,11 @@ const StyledItem = styled.div`
   }
 `;
 
-const Item = ({ width, image, gap, lang }) => (
+const Item = ({ width, item, gap, lang }) => (
   <StyledItem width={width} gap={gap}>
-    <AniLink paintDrip hex={'#663399'} to={`/${lang}/${image.slug}`}>
-      <Img fluid={image} />
-      <div className={'title'}>{image.title}</div>
+    <AniLink paintDrip hex={'#663399'} to={`/${lang}/${item.slug}`}>
+      <Img fluid={item.image} />
+      <div className={'title'}>{item.title}</div>
     </AniLink>
   </StyledItem>
 );

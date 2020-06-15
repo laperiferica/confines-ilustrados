@@ -7,6 +7,9 @@ import SEO from '../components/SEO';
 import Artwork from '../components/Artwork';
 import Title from '../components/Title';
 import Portrait from '../components/Portrait';
+import Composition from '../components/Composition';
+import Sidebar from '../components/Sidebar';
+import Gallery from '../components/Gallery';
 
 const StyledArtistPage = styled.article`
   text-align: justify;
@@ -32,24 +35,33 @@ const ArtistPage = ({
 }) => (
   <>
     <SEO title={frontmatter.name} lang={pageContext.language} />
-    <StyledArtistPage>
-      {frontmatter.image && (
-        <Portrait
-          image={{
-            ...frontmatter.image.portrait.fixed,
-            name: frontmatter.name,
-          }}
+
+    <Composition>
+      <Sidebar>
+        {frontmatter.image && (
+          <Portrait
+            image={{
+              ...frontmatter.image.portrait.fixed,
+              name: frontmatter.name,
+            }}
+          />
+        )}
+        <Title>{frontmatter.name}</Title>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </Sidebar>
+
+      {frontmatter.artwork && (
+        <Gallery
+          partitions={3}
+          component={Artwork}
+          lang={pageContext.language}
+          items={frontmatter.artwork.map((x) => ({
+            image: x.image.full.fluid,
+            title: x.title,
+          }))}
         />
       )}
-      <Title>{frontmatter.name}</Title>
-
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-
-      {frontmatter.artwork &&
-        frontmatter.artwork.map((x, idx) => (
-          <Artwork key={idx} title={x.title} image={x.image.full.fluid} />
-        ))}
-    </StyledArtistPage>
+    </Composition>
   </>
 );
 
@@ -96,11 +108,6 @@ export const pageQuery = graphql`
         artwork {
           title
           image {
-            thumbnail: childImageSharp {
-              fixed(quality: 95, width: 250, height: 250, fit: INSIDE) {
-                ...GatsbyImageSharpFixed_withWebp
-              }
-            }
             full: childImageSharp {
               fluid(quality: 95) {
                 ...GatsbyImageSharpFluid_withWebp

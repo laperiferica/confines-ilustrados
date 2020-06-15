@@ -3,12 +3,15 @@ id: home/intro
 lang: es
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
-ullamcorper augue, vestibulum aliquam erat tincidunt non. Quisque tempor viverra
-nulla in sagittis. Quisque lectus magna, hendrerit euismod diam sit amet,
-accumsan vehicula arcu. Nunc imperdiet maximus nulla, eu posuere nibh. Duis ante
-ligula, pretium at nunc ac, ultrices rutrum eros. Class aptent taciti sociosqu
-ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tempor,
-enim nec tristique luctus, ante nunc laoreet ipsum, ac accumsan tortor quam a
-leo. Phasellus felis velit, bibendum ac sapien nec, posuere fermentum lectus.
-Aliquam nec libero eu ligula sodales mattis.
+Durante más de 56 días la vista no alcanzaba el punto más lejano y los límites,
+reales e imaginarios, se achicaron, nuestra vida quedó circunscrita al perímetro
+de nuestras casas y con ello, la libertad tal y como la conocíamos.
+
+Ante la paradoja de mantener la distancia social, ir más allá, mirar al
+interior, poner la vida y la sociedad en el centro se ha convertido en la
+reflexión predominante. Y ante este reto, ¿cómo se comporta, muta, enreda y
+desenreda, hiberna… la creatividad si está confinada? Proponemos un recorrido a
+través de dibujos, ilustraciones, fotografías y collage, de líneas y confines
+ilustrados de diferentes artistas plásticas, principalmente almerienses, que
+reflejan, nos enfrentan y envuelven en los sentimientos encontrados más comunes
+del confinamiento: la soledad, el tiempo, los cuidados, la introspección…

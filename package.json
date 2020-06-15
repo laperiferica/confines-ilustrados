@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "confines-ilustrados",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Confines Ilustrados",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Javier López Úbeda <jlopezcur@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.23.3",
@@ -29,6 +29,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.10.0",
+    "react-images": "^1.1.7",
     "react-share": "^4.2.0",
     "styled-components": "^5.1.1"
   },
@@ -50,9 +51,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/laperiferica/expo"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/laperiferica/expo/issues"
   }
 }

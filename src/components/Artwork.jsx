@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Img from 'gatsby-image';
 
 const StyledArtwork = styled.div`
+  cursor: pointer;
   .gatsby-image-wrapper {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     margin-bottom: 1rem;
@@ -14,10 +15,10 @@ const StyledArtwork = styled.div`
   }
 `;
 
-const Artwork = ({ title, image }) => (
-  <StyledArtwork>
-    <Img fluid={image} />
-    <div className={'title'}>{title}</div>
+const Artwork = ({ item, onClick }) => (
+  <StyledArtwork onClick={() => onClick()}>
+    <Img fluid={item.image} />
+    <div className={'title'}>{item.title}</div>
   </StyledArtwork>
 );
 
