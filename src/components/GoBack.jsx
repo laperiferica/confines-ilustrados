@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaChevronLeft } from 'react-icons/fa';
+import { FaArrowLeft } from 'react-icons/fa';
 import { navigate } from 'gatsby-plugin-intl';
 
 const StyledGoBack = styled.a`
@@ -22,7 +22,7 @@ const StyledGoBack = styled.a`
 
 const Go2Top = () => (
   <StyledGoBack tabIndex={0} onClick={() => navigate('/')}>
-    <FaChevronLeft size={'25px'} />
+    <FaArrowLeft size={'25px'} />
   </StyledGoBack>
 );
 
