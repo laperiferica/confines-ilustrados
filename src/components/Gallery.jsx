@@ -17,7 +17,7 @@ const StyledGallery = styled.div`
   }
 `;
 
-const Gallery = ({ images, partitions, gap }) => {
+const Gallery = ({ images, partitions, gap, lang }) => {
   const columns = Array(partitions)
     .fill(null)
     .map(() => []);
@@ -30,7 +30,7 @@ const Gallery = ({ images, partitions, gap }) => {
       {columns.map((column, idx) => (
         <div key={idx}>
           {column.map((image) => (
-            <Item key={image.src} gap={gap} image={image} />
+            <Item key={image.src} gap={gap} image={image} lang={lang} />
           ))}
         </div>
       ))}
@@ -42,11 +42,13 @@ Gallery.propTypes = {
   images: PropTypes.array,
   partitions: PropTypes.number,
   gap: PropTypes.number,
+  lang: PropTypes.string,
 };
 
 Gallery.defaultProps = {
   partitions: 3,
   gap: 1,
+  lang: 'en',
 };
 
 export default Gallery;

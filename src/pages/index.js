@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { injectIntl } from 'gatsby-plugin-intl';
 
-import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Gallery from '../components/Gallery';
 import Container from '../components/Container';
@@ -14,26 +13,28 @@ const IndexPage = ({
     text: { html },
   },
   intl,
+  pageContext,
 }) => (
-  <Layout>
+  <>
     <SEO title={intl.formatMessage({ id: 'Home' })} />
 
     <Container>
       <Title>Creatividad Confinada</Title>
-      <p style={{ textAlign: 'justify' }}>
+      <div style={{ textAlign: 'justify' }}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-      </p>
+      </div>
     </Container>
 
     <Gallery
       columns={3}
+      lang={pageContext.language}
       images={edges.map(({ node }) => ({
         ...node.frontmatter.featured.full.fluid,
         title: node.frontmatter.name,
         slug: node.frontmatter.slug,
       }))}
     />
-  </Layout>
+  </>
 );
 
 export default injectIntl(IndexPage);

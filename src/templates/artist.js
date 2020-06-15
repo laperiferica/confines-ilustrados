@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Img from 'gatsby-image';
 
-import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Artwork from '../components/Artwork';
 import Title from '../components/Title';
@@ -31,7 +29,7 @@ const ArtistPage = ({
     markdownRemark: { frontmatter, html },
   },
 }) => (
-  <Layout hasBack={true}>
+  <>
     <SEO title={frontmatter.name} />
     <StyledArtistPage>
       {frontmatter.image && (
@@ -51,7 +49,7 @@ const ArtistPage = ({
           <Artwork key={idx} title={x.title} image={x.image.full.fluid} />
         ))}
     </StyledArtistPage>
-  </Layout>
+  </>
 );
 
 ArtistPage.propTypes = {

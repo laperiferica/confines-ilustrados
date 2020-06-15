@@ -6,21 +6,16 @@ import GoBack from './GoBack';
 
 import '../styles/layout.css';
 
-const Layout = ({ children, hasBack }) => (
+const Layout = ({ children, pageContext }) => (
   <>
     <main>{children}</main>
-    {hasBack && <GoBack />}
+    {pageContext.slug && <GoBack lang={pageContext.language} />}
     <Go2Top />
   </>
 );
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  hasBack: PropTypes.bool,
-};
-
-Layout.defaultProps = {
-  hasBack: false,
 };
 
 export default Layout;

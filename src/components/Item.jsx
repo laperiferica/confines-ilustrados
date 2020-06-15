@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { Link } from 'gatsby-plugin-intl';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 const StyledItem = styled.div`
   width: ${(props) => props.width}%;
@@ -32,12 +32,12 @@ const StyledItem = styled.div`
   }
 `;
 
-const Item = ({ width, image, gap }) => (
+const Item = ({ width, image, gap, lang }) => (
   <StyledItem width={width} gap={gap}>
-    <Link to={`/${image.slug}`}>
+    <AniLink paintDrip hex={'#663399'} to={`/${lang}/${image.slug}`}>
       <Img fluid={image} />
       <div className={'title'}>{image.title}</div>
-    </Link>
+    </AniLink>
   </StyledItem>
 );
 
@@ -45,11 +45,13 @@ Item.propTypes = {
   image: PropTypes.object,
   width: PropTypes.number,
   gap: PropTypes.number,
+  lang: PropTypes.string,
 };
 
 Item.defaultProps = {
   width: 100,
   gap: 1,
+  lang: 'en',
 };
 
 export default Item;
