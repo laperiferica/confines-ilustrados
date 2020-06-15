@@ -31,7 +31,7 @@ const IndexPage = ({
       </Sidebar>
 
       <Gallery
-        partitions={2}
+        partitions={3}
         component={Item}
         lang={pageContext.language}
         items={edges.map(({ node }) => ({
