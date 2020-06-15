@@ -1,7 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Link } from 'gatsby-plugin-intl';
-import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -11,7 +9,8 @@ import Title from '../components/Title';
 
 const IndexPage = ({
   data: {
-    allMarkdownRemark: { edges },
+    artists: { edges },
+    text: { html },
   },
 }) => (
   <Layout>
@@ -20,16 +19,7 @@ const IndexPage = ({
     <Container>
       <Title>Creatividad Confinada</Title>
       <p style={{ textAlign: 'justify' }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
-        ullamcorper augue, vestibulum aliquam erat tincidunt non. Quisque tempor
-        viverra nulla in sagittis. Quisque lectus magna, hendrerit euismod diam
-        sit amet, accumsan vehicula arcu. Nunc imperdiet maximus nulla, eu
-        posuere nibh. Duis ante ligula, pretium at nunc ac, ultrices rutrum
-        eros. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Aliquam tempor, enim nec tristique
-        luctus, ante nunc laoreet ipsum, ac accumsan tortor quam a leo.
-        Phasellus felis velit, bibendum ac sapien nec, posuere fermentum lectus.
-        Aliquam nec libero eu ligula sodales mattis.
+        <div dangerouslySetInnerHTML={{ __html: html }} />
       </p>
     </Container>
 
@@ -48,7 +38,13 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query($language: String) {
-    allMarkdownRemark(
+    text: markdownRemark(
+      frontmatter: { id: { eq: "home/intro" }, lang: { eq: $language } }
+      fileInfo: { sourceInstanceName: { eq: "pages" } }
+    ) {
+      html
+    }
+    artists: allMarkdownRemark(
       filter: {
         fileInfo: { sourceInstanceName: { eq: "artists" } }
         frontmatter: { lang: { eq: $language } }
