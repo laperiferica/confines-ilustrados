@@ -16,7 +16,10 @@ const IndexPage = ({
   pageContext,
 }) => (
   <>
-    <SEO title={intl.formatMessage({ id: 'Home' })} />
+    <SEO
+      title={intl.formatMessage({ id: 'Home' })}
+      lang={pageContext.language}
+    />
 
     <Container>
       <Title>Creatividad Confinada</Title>

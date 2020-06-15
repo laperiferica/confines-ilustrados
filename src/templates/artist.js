@@ -28,9 +28,10 @@ const ArtistPage = ({
   data: {
     markdownRemark: { frontmatter, html },
   },
+  pageContext,
 }) => (
   <>
-    <SEO title={frontmatter.name} />
+    <SEO title={frontmatter.name} lang={pageContext.language} />
     <StyledArtistPage>
       {frontmatter.image && (
         <Portrait
