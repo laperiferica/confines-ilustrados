@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { injectIntl } from 'gatsby-plugin-intl';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -12,9 +13,10 @@ const IndexPage = ({
     artists: { edges },
     text: { html },
   },
+  intl,
 }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title={intl.formatMessage({ id: 'Home' })} />
 
     <Container>
       <Title>Creatividad Confinada</Title>
@@ -34,7 +36,7 @@ const IndexPage = ({
   </Layout>
 );
 
-export default IndexPage;
+export default injectIntl(IndexPage);
 
 export const pageQuery = graphql`
   query($language: String) {
