@@ -4,15 +4,15 @@ lang: es
 name: Eva Ramos
 featured: IMG_0107.jpg
 artwork:
-  - title: Alejarse para entender
+  - title: Alejarse para entender. Ilustración Digital
     image: IMG_0107.jpg
-  - title: Inevitablemente incorrecto
+  - title: Inevitablemente incorrecto. Ilustración Digital
     image: IMG_0108.jpg
-  - title: Borrón y cuenta nueva
+  - title: Borrón y cuenta nueva. Ilustración Digital
     image: IMG_0109.jpg
-  - title: Poder ir donde uno quiera
+  - title: Poder ir donde uno quiera. Ilustración Digital
     image: IMG_0110.jpg
-  - title: Futuro incierto
+  - title: Futuro incierto. Ilustración Digital
     image: IMG_0111.jpg
 ---
 
