@@ -5,15 +5,15 @@ name: Gemma Palacio
 image: portrait.jpg
 featured: 1MrFear_Musica.jpg
 artwork:
-  - title: Mr. Fear Música
+  - title: Mr. Fear Música. Ilustración Digital
     image: 1MrFear_Musica.jpg
-  - title: Mr. Fear Deporte
+  - title: Mr. Fear Deporte. Ilustración Digital
     image: 2MrFear_Deporte.jpg
-  - title: Mr. Fear Meditar
+  - title: Mr. Fear Meditar. Ilustración Digital
     image: 3MrFear_Meditar.jpg
-  - title: Mr. Fear Cocinar
+  - title: Mr. Fear Cocinar. Ilustración Digital
     image: 4MrFear_Cocinar.jpg
-  - title: Mr. Fear Aceptar Cuidar
+  - title: Mr. Fear Aceptar Cuidar. Ilustración Digital
     image: 5MrFear_Aceptar_cuidar.jpg
 ---
 
