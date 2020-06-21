@@ -23,12 +23,17 @@ artwork:
     image: reloj-solar-11pm-serie.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
-ullamcorper augue, vestibulum aliquam erat tincidunt non. Quisque tempor viverra
-nulla in sagittis. Quisque lectus magna, hendrerit euismod diam sit amet,
-accumsan vehicula arcu. Nunc imperdiet maximus nulla, eu posuere nibh. Duis ante
-ligula, pretium at nunc ac, ultrices rutrum eros. Class aptent taciti sociosqu
-ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tempor,
-enim nec tristique luctus, ante nunc laoreet ipsum, ac accumsan tortor quam a
-leo. Phasellus felis velit, bibendum ac sapien nec, posuere fermentum lectus.
-Aliquam nec libero eu ligula sodales mattis.
+En la Facultad Alonso Cano de Granada y en la Academia Belle Arti de Bologna (Italia), Celia
+Coe realiza la licenciatura de Bellas Artes al mismo tiempo que se especializa en Flauta
+Travesera por el Real Conservatorio de música Victoria Eugenia de Granada.
+Después de realizar prácticas artísticas en Florencia, regresó a Almería para especializarse en
+Gráfica Publicitaria con el fin de seguir ampliando conocimientos artísticos digitales.
+Posteriormente crea POL&amp;COE, su propio estudio de diseño e ilustración, que le ha brindado la
+oportunidad de realizar grandes proyectos, como diseñadora, muralista, escenógrafa,
+ilustradora, ponente en workshops, gestora y mediadora cultural para instituciones culturales
+como el Museo Arqueológico de Almería, el Centro Andaluz de la Fotografía (CAF) o el
+Conjunto Monumental de la Alhambra y el Generalife de Granada, entre otras.
+Ha realizado exposiciones en Bologna, Florencia, Madrid, Sevilla, Granada y en diferentes
+puntos de la provincia de Almería. Pertenece al colectivo de ilustradores Urban Sketchers de
+Almería y sus colecciones completas se encuentran de forma permanente en la Galería Arte
+21, donde colabora y desarrolla su parte creativa más personal.
