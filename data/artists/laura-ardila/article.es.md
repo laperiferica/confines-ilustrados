@@ -15,6 +15,6 @@ artwork:
   - title: Desiertos - La Marina
     image: Laura Ardila 05 - Desiertos - La Marina.jpg
 ---
-aura Ardila viene de Medellín (Colombia) donde estudió Bellas Artes. Ha vivido en Almería durante los últimos seis años y ahí ha estudiado Grabado y Cerámica y ha desarrollado su obra más reciente.
+Laura Ardila viene de Medellín (Colombia) donde estudió Bellas Artes. Ha vivido en Almería durante los últimos seis años y ahí ha estudiado Grabado y Cerámica y ha desarrollado su obra más reciente.
 También es la cofundadora del espacio artístico y cultural Espacio Campingás junto con otrxs amigxs artistas.
 
