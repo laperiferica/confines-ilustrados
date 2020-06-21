@@ -16,14 +16,16 @@ artwork:
   - title: n/a
     image: lamina (4).jpg
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
-ullamcorper augue, vestibulum aliquam erat tincidunt non. Quisque tempor viverra
-nulla in sagittis. Quisque lectus magna, hendrerit euismod diam sit amet,
-accumsan vehicula arcu. Nunc imperdiet maximus nulla, eu posuere nibh. Duis ante
-ligula, pretium at nunc ac, ultrices rutrum eros. Class aptent taciti sociosqu
-ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tempor,
-enim nec tristique luctus, ante nunc laoreet ipsum, ac accumsan tortor quam a
-leo. Phasellus felis velit, bibendum ac sapien nec, posuere fermentum lectus.
-Aliquam nec libero eu ligula sodales mattis.
-
+Licenciada en bellas artes, Inés Bermejo es una artista apasionada de la danza
+y la creación audiovisual, pasiones que ha combinado con el trabajo en el
+ámbito performativo.
+Ha vivido los últimos años entre Bilbao, Milán (Italia), Berlín (alemania) e
+Innsbruck (Austria), este bagaje le ha permitido explorar el arte desde la óptica
+del comisariado, la organización y producción de eventos artístico-culturales y
+participar como artista en distintas instituciones como el Museo Guggenheim
+(Bilbao), d21 Kunstraum Leipzig (Alemania), la Feria de Arte Contemporáneo
+de Castellon marte, Die Bäckerei-Kulturbackstube, (Austria), entre muchas
+otras. Además de realizar creaciones artísticas colectivas como Play stand still
+de Esti Olabarri o Germinal, proyecto de artes cruzadas, etc.
+Recientemente ha sido premiada con el galardón Aixegetxo 2018, como artista
+visual.
