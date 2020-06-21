@@ -4,7 +4,7 @@ lang: es
 name: María Moreno
 featured: Adiós pajarillos. Técnica mixta sobre papel, 2020.jpg
 artwork:
-  - title: Adiós pajarillos. Técnica mixta sobre papel, 2020
+  - title: Adiós pajarillos. Técnica mixta sobre papel
     image: Adiós pajarillos. Técnica mixta sobre papel, 2020.jpg
   - title: Homenaje a Campos de Níjar. Técnica mixta y collage sobre papel
     image: Homenaje a Campos de Níjar. Técnica mixta y collage sobre papel.jpg
@@ -12,7 +12,7 @@ artwork:
     image: Movimientos de brisas previsibles. Serie Il Bianco, il Vento e il Vuoto.  Técnica mixta sobre papel.jpg
   - title: Piove su tutte le cose (Llueve sobre todas las cosas)  Serie Sobre el viento y otros cuentos.  Técnica mixta  sobre papel
     image: Piove su tutte le cose (Llueve sobre todas las cosas)  Serie Sobre el viento y otros cuentos.  Técnica mixta  sobre papel.jpg
-  - title: Tierra que permanece Técnica mixta sobre papel, 2020
+  - title: Tierra que permanece. Técnica mixta sobre papel
     image: Tierra que permanece Técnica mixta sobre papel, 2020.jpg
 ---
 
