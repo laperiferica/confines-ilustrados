@@ -26,7 +26,7 @@ hacerlos más visibles.
 
 Mis días en el confinamiento: 
 
-Normalmente buceo.
+"Normalmente buceo.
 Me concentra estar sumergida,
 nadar a mi aire,
 visitar rincones,
@@ -39,4 +39,4 @@ Normalmente es satisfactorio,
 normalmente quiero más. 
 Normalmente es así
 pero ahora no,
-ahora no hay agua.
+ahora no hay agua".
