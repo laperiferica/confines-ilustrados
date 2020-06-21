@@ -27,7 +27,7 @@ hacerlos más visibles.
 Mis días en el confinamiento: 
 
 Normalmente buceo.
-me concentra estar sumergida,
+Me concentra estar sumergida,
 nadar a mi aire,
 visitar rincones,
 descubrir tesoros. 
@@ -36,7 +36,7 @@ no paso hambre,
 no tengo sueño,
 solo me alerta el dolor en las nalgas. 
 Normalmente es satisfactorio,
-Normalmente quiero más. 
+normalmente quiero más. 
 Normalmente es así
 pero ahora no,
-ahora no hay agua
+ahora no hay agua.
