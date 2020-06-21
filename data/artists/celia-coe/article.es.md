@@ -5,21 +5,21 @@ name: Celia Coe
 image: portrait.jpg
 featured: aguaparse-el-alma.jpg
 artwork:
-  - title: Aguaparse el alma
+  - title: Aguaparse el alma. Ilustración Digital
     image: aguaparse-el-alma.jpg
-  - title: Flexorizar en casa
+  - title: Flexorizar en casa. Ilustración Digital
     image: flexorizar-en-casa.jpg
-  - title: Jabonizar la mente
+  - title: Jabonizar la mente. Ilustración Digital
     image: jabonizar-la-mente.jpg
-  - title: Junglarse los sueños
+  - title: Junglarse los sueños. Ilustración Digital
     image: junglarse-los-suenios.jpg
-  - title: Antenas humanas
+  - title: Antenas humanas. Fototgrafía 
     image: antenas-humanas.jpg
-  - title: Cielos de mar
+  - title: Cielos de mar. Fototgrafía 
     image: cielos-de-mar.jpg
-  - title: Estratos
+  - title: Estratos. Fototgrafía 
     image: estratos.jpg
-  - title: Reloj solar 11pm (serie)
+  - title: Reloj solar 11pm (serie). Fototgrafía 
     image: reloj-solar-11pm-serie.jpg
 ---
 
