@@ -16,13 +16,6 @@ artwork:
     image: Tierra que permanece Técnica mixta sobre papel, 2020.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum
-ullamcorper augue, vestibulum aliquam erat tincidunt non. Quisque tempor viverra
-nulla in sagittis. Quisque lectus magna, hendrerit euismod diam sit amet,
-accumsan vehicula arcu. Nunc imperdiet maximus nulla, eu posuere nibh. Duis ante
-ligula, pretium at nunc ac, ultrices rutrum eros. Class aptent taciti sociosqu
-ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tempor,
-enim nec tristique luctus, ante nunc laoreet ipsum, ac accumsan tortor quam a
-leo. Phasellus felis velit, bibendum ac sapien nec, posuere fermentum lectus.
-Aliquam nec libero eu ligula sodales mattis.
-
+Natural de Níjar, María Moreno -Artista plástica- se licenció en Bellas Artes en la Universidad de Granada y se formó en cerámica artística en la Escuela de Artes de Almería. Es una de las fundadoras del estudio artístico Espacio Campingás, un referente cultural en el casco antiguo de Almería desde 2017.
+Sus obras se han expuesto en galerías de Almería, Granada, Sevilla, Oviedo, Bilbao, Génova y Nápoles, donde residió en 2014 para colaborar con la asociación cultural Arteteca. También fue seleccionada en 2018 para la residencia artística “Alfara Gráfica” en Salamanca. Dos años antes había recibido el primer premio del certamen artístico “Por los buenos tratos”, otorgado por el Instituto Andaluz de la Juventud.
+María Moreno define sus ilustraciones como «el lenguaje más sincero con el que crear narraciones y contar secretos; historias de texturas y colores velados que nacen del lugar que habito e inspiradas por la lírica de José Ángel Valente, la pintura de Twombly y Milton Avery o las formas minimalistas de Jürgen Partenheimer».
