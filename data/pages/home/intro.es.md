@@ -5,7 +5,7 @@ lang: es
 
 Durante más de 56 días la vista no alcanzaba el punto más lejano y los límites, reales e imaginarios, se achicaron, nuestra vida quedó circunscrita al perímetro de nuestras casas y con ello, la libertad tal y como la conocíamos. 
 
-Confines
+Confines: 
 1.Línea real o imaginaria que marca los límites de un terreno, una región, un país, etc., y lo separa de otros; especialmente si estos límites están lejanos.
 2.Punto más lejano que se alcanza con la vista.
 
