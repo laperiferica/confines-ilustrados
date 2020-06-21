@@ -13,13 +13,13 @@ artwork:
     image: jabonizar-la-mente.jpg
   - title: Junglarse los sueños. Ilustración Digital
     image: junglarse-los-suenios.jpg
-  - title: Antenas humanas. Fototgrafía 
+  - title: Antenas humanas. Fotografía 
     image: antenas-humanas.jpg
-  - title: Cielos de mar. Fototgrafía 
+  - title: Cielos de mar. Fotografía 
     image: cielos-de-mar.jpg
-  - title: Estratos. Fototgrafía 
+  - title: Estratos. Fotografía 
     image: estratos.jpg
-  - title: Reloj solar 11pm (serie). Fototgrafía 
+  - title: Reloj solar 11pm (serie). Fotografía 
     image: reloj-solar-11pm-serie.jpg
 ---
 
