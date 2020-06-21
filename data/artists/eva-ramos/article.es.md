@@ -23,3 +23,20 @@ comunicativo, conceptual y algo minimalista usando siempre la misma paleta de 3
 colores con los que se siente como en casa.  Le inspira la cotidianidad de la
 vida y los errores recurrentes con los que juega cambiándolos de contexto para
 hacerlos más visibles.
+
+Mis días en el confinamiento: 
+
+Normalmente buceo.
+me concentra estar sumergida,
+nadar a mi aire,
+visitar rincones,
+descubrir tesoros. 
+Normalmente el tiempo vuela,
+no paso hambre,
+no tengo sueño,
+solo me alerta el dolor en las nalgas. 
+Normalmente es satisfactorio,
+Normalmente quiero más. 
+Normalmente es así
+pero ahora no,
+ahora no hay agua
