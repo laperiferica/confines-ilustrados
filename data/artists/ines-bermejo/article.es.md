@@ -5,15 +5,15 @@ name: Ines Bermejo
 image: portrait.jpg
 featured: lamina (1).jpg
 artwork:
-  - title: n/a
+  - title: n/a. Collage y técica mixta
     image: lamina (1).jpg
-  - title: n/a
+  - title: n/a. Collage y técica mixta
     image: lamina (16).jpg
-  - title: n/a
+  - title: n/a. Collage y técica mixta
     image: lamina (24).jpg
-  - title: n/a
+  - title: n/a. Collage y técica mixta
     image: lamina (3).jpg
-  - title: n/a
+  - title: n/a. Collage y técica mixta
     image: lamina (4).jpg
 ---
 Licenciada en bellas artes, Inés Bermejo es una artista apasionada de la danza
