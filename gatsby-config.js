@@ -64,19 +64,19 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
-    // 'gatsby-plugin-sitemap',
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     trackingId: 'UA-165266387-1',
-    //     head: false,
-    //     anonymize: true,
-    //     respectDNT: true,
-    //     sampleRate: 5,
-    //     siteSpeedSampleRate: 10,
-    //     cookieDomain: 'laperifericacc.com',
-    //   },
-    // },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-165266387-2',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'laperifericacc.com',
+      },
+    },
   ],
 };

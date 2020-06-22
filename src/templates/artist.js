@@ -67,6 +67,7 @@ const ArtistPage = ({
           items={frontmatter.artwork.map((x) => ({
             image: x.image.full.fluid,
             title: x.title,
+            video: x.video,
           }))}
         />
       )}
@@ -88,6 +89,7 @@ ArtistPage.propTypes = {
           PropTypes.shape({
             title: PropTypes.string,
             image: PropTypes.object,
+            video: PropTypes.string,
           })
         ),
         website: PropTypes.string,
@@ -126,6 +128,7 @@ export const pageQuery = graphql`
               }
             }
           }
+          video
         }
         website
         facebook

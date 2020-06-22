@@ -17,10 +17,58 @@ const StyledGallery = styled.div`
   }
 `;
 
+const StyledWholeGallery = styled.div`
+  .columns {
+    display: block;
+  }
+  .single {
+    display: none;
+  }
+  @media only screen and (max-width: 980px) {
+    .columns {
+      display: none;
+    }
+    .single {
+      display: block;
+    }
+  }
+`;
+
+const StyledCustomView = styled.div`
+  .imageContainer {
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+`;
+const CustomView = ({ ...props }) => (
+  <StyledCustomView>
+    <div className={'imageContainer'}>
+      {props.data.video ? (
+        <iframe
+          width="90%"
+          modestbranding="1"
+          rel="0"
+          showinfo="0"
+          height="90%"
+          src={`https://www.youtube.com/embed/${props.data.video}`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullscreen
+        ></iframe>
+      ) : (
+        <img src={props.data.src} style={{ maxHeight: '90vh' }} />
+      )}
+    </div>
+  </StyledCustomView>
+);
+
 const Gallery = ({ items, partitions, gap, lang, component }) => {
   const [currentImage, setCurrentImage] = useState(-1);
 
   const openLightbox = (index) => {
+    console.log(index);
     setCurrentImage(index);
   };
 
@@ -32,41 +80,58 @@ const Gallery = ({ items, partitions, gap, lang, component }) => {
     .fill(null)
     .map(() => []);
   items.forEach((image, idx) => {
-    columns[idx % partitions].push(image);
+    columns[idx % partitions].push({ img: image, idx });
   });
 
   const Cmp = component;
 
   return (
-    <>
-      <StyledGallery partitions={partitions} gap={gap}>
-        {columns.map((column, idx) => (
-          <div key={idx}>
-            {column.map((item, idx2) => (
-              <Cmp
-                key={idx2}
-                gap={gap}
-                item={item}
-                lang={lang}
-                onClick={() => openLightbox(idx * idx2)}
-              />
-            ))}
-          </div>
-        ))}
-      </StyledGallery>
+    <StyledWholeGallery>
+      <div className={'columns'}>
+        <StyledGallery partitions={partitions} gap={gap}>
+          {columns.map((column, idx) => (
+            <div key={idx}>
+              {column.map((item, idx2) => (
+                <Cmp
+                  key={idx2}
+                  gap={gap}
+                  item={item.img}
+                  lang={lang}
+                  onClick={() => openLightbox(item.idx)}
+                />
+              ))}
+            </div>
+          ))}
+        </StyledGallery>
+      </div>
+      <div className={'single'}>
+        <StyledGallery>
+          {items.map((item, idx) => (
+            <Cmp
+              key={idx}
+              gap={gap}
+              item={item}
+              lang={lang}
+              onClick={() => openLightbox(idx)}
+            />
+          ))}
+        </StyledGallery>
+      </div>
       <ModalGateway>
         {currentImage >= 0 && (
           <Modal onClose={closeLightbox}>
             <Carousel
+              components={{ View: CustomView }}
               currentIndex={currentImage}
-              views={items.map(({ image }) => ({
+              views={items.map(({ image, video }) => ({
                 src: image.src,
+                video,
               }))}
             />
           </Modal>
         )}
       </ModalGateway>
-    </>
+    </StyledWholeGallery>
   );
 };
 

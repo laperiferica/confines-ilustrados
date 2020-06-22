@@ -11,6 +11,7 @@ import {
 
 const StyledSocial = styled.div`
   ul {
+    margin: 0;
     li {
       display: inline-block;
       margin-left: 1rem;
@@ -18,6 +19,9 @@ const StyledSocial = styled.div`
         color: black;
         font-size: 45px;
       }
+    }
+    li:first-child {
+      margin-left: 0;
     }
   }
 `;
