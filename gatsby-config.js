@@ -3,7 +3,7 @@ module.exports = {
     title: 'Confines Ilustrados',
     description: 'Confines Ilustrados',
     author: '@LaPerifericaCC',
-    siteUrl: 'https://confines-ilustrados.laperifericacc.com/',
+    siteUrl: 'https://confines-ilustrados.laperifericacc.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
