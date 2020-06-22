@@ -1,7 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { FaGlobe, FaFacebook, FaInstagram } from 'react-icons/fa';
+import {
+  FaGlobe,
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+} from 'react-icons/fa';
 
 const StyledSocial = styled.div`
   ul {
@@ -16,7 +22,7 @@ const StyledSocial = styled.div`
   }
 `;
 
-const Social = ({ website, facebook, instagram }) => (
+const Social = ({ website, facebook, instagram, youtube, twitter }) => (
   <StyledSocial>
     <ul>
       {website && (
@@ -37,6 +43,20 @@ const Social = ({ website, facebook, instagram }) => (
         <li>
           <a href={instagram} target={'_blank'} rel={'noopener noreferrer'}>
             <FaInstagram />
+          </a>
+        </li>
+      )}
+      {youtube && (
+        <li>
+          <a href={youtube} target={'_blank'} rel={'noopener noreferrer'}>
+            <FaYoutube />
+          </a>
+        </li>
+      )}
+      {twitter && (
+        <li>
+          <a href={twitter} target={'_blank'} rel={'noopener noreferrer'}>
+            <FaTwitter />
           </a>
         </li>
       )}

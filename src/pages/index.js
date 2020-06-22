@@ -4,13 +4,12 @@ import { injectIntl } from 'gatsby-plugin-intl';
 
 import SEO from '../components/SEO';
 import Gallery from '../components/Gallery';
-import Title from '../components/Title';
 import Composition from '../components/Composition';
 import Sidebar from '../components/Sidebar';
 import Item from '../components/Item';
 
-import logo from '../images/logo.png';
 import poster from '../images/cartel.jpg';
+import Social from '../components/Social';
 
 const IndexPage = ({
   data: {
@@ -32,6 +31,14 @@ const IndexPage = ({
         <div style={{ textAlign: 'justify' }}>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
+
+        <Social
+          website={'https://laperifericacc.com'}
+          facebook={'https://www.facebook.com/LaPerifericaCC/'}
+          instagram={'https://www.instagram.com/LaPerifericaCC/'}
+          youtube={'https://www.youtube.com/channel/UCo0LamWRwdLSfO3o_Ob3-WQ'}
+          twitter={'https://twitter.com/LaPerifericaCC'}
+        />
       </Sidebar>
 
       <div>
