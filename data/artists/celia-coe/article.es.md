@@ -21,7 +21,7 @@ artwork:
     image: estratos.jpg
   - title: Reloj solar 11pm (serie). Fotografía
     image: reloj-solar-11pm-serie.jpg
-    video: 9-Sql2uZOgA
+    video: 7CviGqxQHEc
 website: http://www.celiacoe.com/
 facebook: http://facebook.com/polandcoe
 instagram: http://instagram.com/celiacoe

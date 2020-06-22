@@ -55,7 +55,7 @@ const CustomView = ({ ...props }) => (
           src={`https://www.youtube.com/embed/${props.data.video}`}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullscreen
+          allowFullScreen
         ></iframe>
       ) : (
         <img src={props.data.src} style={{ maxHeight: '90vh' }} />
@@ -68,7 +68,6 @@ const Gallery = ({ items, partitions, gap, lang, component }) => {
   const [currentImage, setCurrentImage] = useState(-1);
 
   const openLightbox = (index) => {
-    console.log(index);
     setCurrentImage(index);
   };
 
