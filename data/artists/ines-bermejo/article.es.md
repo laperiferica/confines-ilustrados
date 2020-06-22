@@ -33,6 +33,6 @@ de Esti Olabarri o Germinal, proyecto de artes cruzadas, etc.
 Recientemente ha sido premiada con el galardón Aixegetxo 2018, como artista
 visual.
 
-Mis días de confinamiento:
+
 "Domingo de Marzo, calor, ¿primavera? parecía imposible pero a las cuatro de la tarde entre cuatro paredes empieza una nueva etapa. La casa esta caliente, bochorno, yo sola, yo sola con mis manos, pájaros en la cabeza, la niña del volcán, rutina,
 más rutina, gris, todo gris, me faltan colores, me sobran ideas, crear, quiero crear, necesidad de crear, ideas, más ideas, recortes, imágenes, surge una imagen, se difumina, vuelve a aparecer, ¿dónde están mis tijeras?, empiezo, pereza, ¿empiezo?, pegamento, hilo, me animo, las junto, las separo, me voy, ¿te vienes?, volvemos, jugamos, me duermo, ¡despierta!, llego tarde, un té, mejor una caña, mejor dos, ¿me ayudas?, suspiro, no lo veo, sigo, rehago, corto, pego, sigo pegando, pienso, coge forma, me gusta, me despisto,ahora huele a tostada,café, puzzle, fotos, memoria, alas, una imagen, dos, tres, cinco, ocho, ¿qué te parecen?,vuelta, sin cabeza, sin mirada, errealitatea eta erreala ez denaren desertua, cuadernos,historias, ahora.
