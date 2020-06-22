@@ -24,7 +24,6 @@ colores con los que se siente como en casa.  Le inspira la cotidianidad de la
 vida y los errores recurrentes con los que juega cambiándolos de contexto para
 hacerlos más visibles.
 
-Mis días en el confinamiento: 
 
 "Normalmente buceo.
 Me concentra estar sumergida,
