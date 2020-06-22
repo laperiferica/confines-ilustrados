@@ -9,6 +9,9 @@ import Composition from '../components/Composition';
 import Sidebar from '../components/Sidebar';
 import Item from '../components/Item';
 
+import logo from '../images/logo.png';
+import poster from '../images/cartel.jpg';
+
 const IndexPage = ({
   data: {
     artists: { edges },
@@ -25,21 +28,24 @@ const IndexPage = ({
 
     <Composition>
       <Sidebar>
-        <img src={'https://via.placeholder.com/250/250'} />
-        <Title>Confines Ilustrados</Title>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <img src={poster} />
+        <div style={{ textAlign: 'justify' }}>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
       </Sidebar>
 
-      <Gallery
-        partitions={3}
-        component={Item}
-        lang={pageContext.language}
-        items={edges.map(({ node }) => ({
-          image: node.frontmatter.featured.full.fluid,
-          title: node.frontmatter.name,
-          slug: node.frontmatter.slug,
-        }))}
-      />
+      <div>
+        <Gallery
+          partitions={2}
+          component={Item}
+          lang={pageContext.language}
+          items={edges.map(({ node }) => ({
+            image: node.frontmatter.featured.full.fluid,
+            title: node.frontmatter.name,
+            slug: node.frontmatter.slug,
+          }))}
+        />
+      </div>
     </Composition>
   </>
 );

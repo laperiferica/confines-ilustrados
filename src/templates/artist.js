@@ -10,6 +10,7 @@ import Portrait from '../components/Portrait';
 import Composition from '../components/Composition';
 import Sidebar from '../components/Sidebar';
 import Gallery from '../components/Gallery';
+import Social from '../components/Social';
 
 const StyledArtistPage = styled.article`
   text-align: justify;
@@ -47,12 +48,20 @@ const ArtistPage = ({
           />
         )}
         <Title>{frontmatter.name}</Title>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div style={{ textAlign: 'justify' }}>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+
+        <Social
+          website={frontmatter.website}
+          facebook={frontmatter.facebook}
+          instagram={frontmatter.instagram}
+        />
       </Sidebar>
 
       {frontmatter.artwork && (
         <Gallery
-          partitions={3}
+          partitions={2}
           component={Artwork}
           lang={pageContext.language}
           items={frontmatter.artwork.map((x) => ({
@@ -81,6 +90,9 @@ ArtistPage.propTypes = {
             image: PropTypes.object,
           })
         ),
+        website: PropTypes.string,
+        facebook: PropTypes.string,
+        instagram: PropTypes.string,
       }),
       html: PropTypes.string,
     }),
@@ -115,6 +127,9 @@ export const pageQuery = graphql`
             }
           }
         }
+        website
+        facebook
+        instagram
       }
       html
     }

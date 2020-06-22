@@ -7,8 +7,7 @@ const StyledTitle = styled.div`
   h2 {
     font-size: 2rem;
     line-height: 2rem;
-    text-transform: lowercase;
-    color: #663399;
+    color: black;
   }
 `;
 

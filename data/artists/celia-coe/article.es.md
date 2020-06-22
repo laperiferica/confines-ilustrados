@@ -13,14 +13,17 @@ artwork:
     image: jabonizar-la-mente.jpg
   - title: Junglarse los sueños. Ilustración Digital
     image: junglarse-los-suenios.jpg
-  - title: Antenas humanas. Fotografía 
+  - title: Antenas humanas. Fotografía
     image: antenas-humanas.jpg
-  - title: Cielos de mar. Fotografía 
+  - title: Cielos de mar. Fotografía
     image: cielos-de-mar.jpg
-  - title: Estratos. Fotografía 
+  - title: Estratos. Fotografía
     image: estratos.jpg
-  - title: Reloj solar 11pm (serie). Fotografía 
+  - title: Reloj solar 11pm (serie). Fotografía
     image: reloj-solar-11pm-serie.jpg
+website: http://www.celiacoe.com/
+facebook: http://facebook.com/polandcoe
+instagram: http://instagram.com/celiacoe
 ---
 
 En la Facultad Alonso Cano de Granada y en la Academia Belle Arti de Bologna (Italia), Celia

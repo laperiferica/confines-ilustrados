@@ -2,6 +2,7 @@
 slug: eva-ramos
 lang: es
 name: Eva Ramos
+image: portrait.jpg
 featured: IMG_0107.jpg
 artwork:
   - title: Alejarse para entender. Ilustración Digital
@@ -14,6 +15,8 @@ artwork:
     image: IMG_0110.jpg
   - title: Futuro incierto. Ilustración Digital
     image: IMG_0111.jpg
+facebook: https://www.facebook.com/Eva-Ramos-1061911240629285/
+instagram: https://www.instagram.com/evaramoss/?hl=en
 ---
 
 Eva es una diseñadora gráfica almeriense con más de 10 años de experiencia en el
@@ -24,18 +27,17 @@ colores con los que se siente como en casa.  Le inspira la cotidianidad de la
 vida y los errores recurrentes con los que juega cambiándolos de contexto para
 hacerlos más visibles.
 
-
 "Normalmente buceo.
 Me concentra estar sumergida,
 nadar a mi aire,
 visitar rincones,
-descubrir tesoros. 
+descubrir tesoros.
 Normalmente el tiempo vuela,
 no paso hambre,
 no tengo sueño,
-solo me alerta el dolor en las nalgas. 
+solo me alerta el dolor en las nalgas.
 Normalmente es satisfactorio,
-normalmente quiero más. 
+normalmente quiero más.
 Normalmente es así
 pero ahora no,
 ahora no hay agua".

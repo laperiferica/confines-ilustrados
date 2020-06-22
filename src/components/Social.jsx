@@ -1,0 +1,47 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { FaGlobe, FaFacebook, FaInstagram } from 'react-icons/fa';
+
+const StyledSocial = styled.div`
+  ul {
+    li {
+      display: inline-block;
+      margin-left: 1rem;
+      a {
+        color: black;
+        font-size: 45px;
+      }
+    }
+  }
+`;
+
+const Social = ({ website, facebook, instagram }) => (
+  <StyledSocial>
+    <ul>
+      {website && (
+        <li>
+          <a href={website} target={'_blank'} rel={'noopener noreferrer'}>
+            <FaGlobe />
+          </a>
+        </li>
+      )}
+      {facebook && (
+        <li>
+          <a href={facebook} target={'_blank'} rel={'noopener noreferrer'}>
+            <FaFacebook />
+          </a>
+        </li>
+      )}
+      {instagram && (
+        <li>
+          <a href={instagram} target={'_blank'} rel={'noopener noreferrer'}>
+            <FaInstagram />
+          </a>
+        </li>
+      )}
+    </ul>
+  </StyledSocial>
+);
+
+export default Social;

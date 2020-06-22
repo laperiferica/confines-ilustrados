@@ -2,6 +2,7 @@
 slug: maria-moreno
 lang: es
 name: María Moreno
+image: portrait.jpg
 featured: Adiós pajarillos. Técnica mixta sobre papel, 2020.jpg
 artwork:
   - title: Adiós pajarillos. Técnica mixta sobre papel
@@ -14,6 +15,9 @@ artwork:
     image: Piove su tutte le cose (Llueve sobre todas las cosas)  Serie Sobre el viento y otros cuentos.  Técnica mixta  sobre papel.jpg
   - title: Tierra que permanece. Técnica mixta sobre papel
     image: Tierra que permanece Técnica mixta sobre papel, 2020.jpg
+facebook: https://www.facebook.com/mariamorenoarte/
+website: http://www.maria-moreno.com/
+instagram: https://www.instagram.com/mariamorenoarte
 ---
 
 Natural de Níjar, María Moreno -Artista plástica- se licenció en Bellas Artes en la Universidad de Granada y se formó en cerámica artística en la Escuela de Artes de Almería. Es una de las fundadoras del estudio artístico Espacio Campingás, un referente cultural en el casco antiguo de Almería desde 2017.

@@ -18,14 +18,14 @@ const StyledGoBack = styled.div`
     display: grid;
     align-items: center;
     justify-items: center;
-    background-color: #663399;
+    background-color: black;
     color: white;
   }
 `;
 
 const Go2Top = ({ lang }) => (
   <StyledGoBack>
-    <AniLink paintDrip hex={'#663399'} to={`/${lang}/`}>
+    <AniLink paintDrip hex={'black'} to={`/${lang}/`}>
       <FaArrowLeft size={'25px'} />
     </AniLink>
   </StyledGoBack>

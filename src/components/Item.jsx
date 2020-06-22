@@ -16,7 +16,7 @@ const StyledItem = styled.div`
     display: grid;
     align-items: center;
     justify-items: center;
-    background-color: rgba(66, 33, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     left: 0;
     right: 0;
@@ -24,7 +24,6 @@ const StyledItem = styled.div`
     top: 0;
     z-index: 400;
     color: white;
-    text-transform: lowercase;
   }
 
   &:hover .title {
@@ -34,7 +33,7 @@ const StyledItem = styled.div`
 
 const Item = ({ width, item, gap, lang }) => (
   <StyledItem width={width} gap={gap}>
-    <AniLink paintDrip hex={'#663399'} to={`/${lang}/${item.slug}`}>
+    <AniLink paintDrip hex={'black'} to={`/${lang}/${item.slug}`}>
       <Img fluid={item.image} />
       <div className={'title'}>{item.title}</div>
     </AniLink>

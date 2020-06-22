@@ -19,7 +19,7 @@ const StyledGo2Top = styled.a`
   font-size: 16px;
   z-index: 1100;
   border-radius: 50%;
-  background-color: #663399;
+  background-color: black;
   color: white;
 `;
 
