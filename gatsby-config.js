@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/expo',
   siteMetadata: {
     title: 'Confines Ilustrados',
     description: 'Confines Ilustrados',
